@@ -2,10 +2,14 @@
   "name": "Docs",
   "colors": {
     "light": {
-      "brand": "#F97316"
+      "brand": "#F97316",
+      "heading": "#282a33",
+      "text": "#374151"
     },
     "dark": {
-      "brand": "#FDBA74"
+      "brand": "#FDBA74",
+      "heading": "#282a33",
+      "text": "#c1c1c1"
     }
   },
   "navigation": {
@@ -83,5 +87,10 @@
         ]
       }
     ]
+  },
+  "template": "classic",
+  "seo": {
+    "robots:index": true,
+    "robots:follow": true
   }
 }
